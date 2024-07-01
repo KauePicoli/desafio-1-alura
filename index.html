@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="bloco1">
+            <textarea placeholder="Digite seu texto" name="" id="texto"></textarea>
+            <p>Apenas letras minúsculas e sem acento.</p>
+            <div class="botoes">
+                <button class="botao1" onclick="codificar()" type="button">Criptografar</button>
+                <button class="botao2" onclick="decodificar()" type="button">Descriptografar</button>
+            </div>
+        </div>
+        <div id="bloco2">
+            <textarea readonly name="" id="textoFeito"></textarea>
+            <div class="botoes">
+                <button class="botao3" onclick="copiar()" type="button">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
