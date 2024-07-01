@@ -1,0 +1,1 @@
+Primeiro eu fiz todo o back-end, criando os sistemas de criptografia, descriptografia e copiar o texto codificado pra área de transferencia. Depois eu parti pro front-end, escolhi uma palheta de cores e tentei seguir o design proposto porém com minhas alterações.
